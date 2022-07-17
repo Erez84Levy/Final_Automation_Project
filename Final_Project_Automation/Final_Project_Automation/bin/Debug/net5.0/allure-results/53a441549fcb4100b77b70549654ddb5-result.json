@@ -1,0 +1,89 @@
+{
+  "uuid": "51f9363d-1810-472e-ab9c-9b3de6c21c5a-tr-0-1004",
+  "historyId": "Final_Project_Automation.Test.AllPagesTest.TC04_page4",
+  "fullName": "Final_Project_Automation.Test.AllPagesTest.TC04_page4",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IL-EREZ-L-XL"
+    },
+    {
+      "name": "package",
+      "value": "Final_Project_Automation.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC04_page4"
+    },
+    {
+      "name": "testClass",
+      "value": "AllPagesTest"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "feature",
+      "value": "Add tasks"
+    },
+    {
+      "name": "story",
+      "value": "Fourth story releated to task"
+    },
+    {
+      "name": "epic",
+      "value": "Tasks"
+    }
+  ],
+  "links": [],
+  "name": "TC04_page4",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#lists > div.tabs-n-button > div > div\"}\n  (Session info: chrome=103.0.5060.66)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at Final_Project_Automation.PageObject.SearchPage.get_NewTaskBtn() in C:\\Users\\erez-l\\source\\repos\\Final_Project_Automation\\Final_Project_Automation\\PageObject\\SearchPage.cs:line 18\r\n   at Final_Project_Automation.PageObject.SearchPage.CreateNewListOfTasks(String TaskName) in C:\\Users\\erez-l\\source\\repos\\Final_Project_Automation\\Final_Project_Automation\\PageObject\\SearchPage.cs:line 38\r\n   at Final_Project_Automation.Test.AllPagesTest.TC04_page4() in C:\\Users\\erez-l\\source\\repos\\Final_Project_Automation\\Final_Project_Automation\\Test\\AllTests.cs:line 74"
+  },
+  "stage": "finished",
+  "description": "Get all task list\n",
+  "steps": [
+    {
+      "name": "TC04_page4",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#lists > div.tabs-n-button > div > div\"}\n  (Session info: chrome=103.0.5060.66)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at Final_Project_Automation.PageObject.SearchPage.get_NewTaskBtn() in C:\\Users\\erez-l\\source\\repos\\Final_Project_Automation\\Final_Project_Automation\\PageObject\\SearchPage.cs:line 18\r\n   at Final_Project_Automation.PageObject.SearchPage.CreateNewListOfTasks(String TaskName) in C:\\Users\\erez-l\\source\\repos\\Final_Project_Automation\\Final_Project_Automation\\PageObject\\SearchPage.cs:line 38\r\n   at Final_Project_Automation.Test.AllPagesTest.TC04_page4() in C:\\Users\\erez-l\\source\\repos\\Final_Project_Automation\\Final_Project_Automation\\Test\\AllTests.cs:line 74"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "1ed04573af53437a9574fc11731e9973-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "819cbc1eaac94b36bad416058f4648b0-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1657041218949,
+      "stop": 1657041221251
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1657041218949,
+  "stop": 1657041221251
+}

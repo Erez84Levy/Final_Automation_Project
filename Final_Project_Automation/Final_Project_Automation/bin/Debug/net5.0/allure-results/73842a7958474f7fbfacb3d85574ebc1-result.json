@@ -1,0 +1,81 @@
+{
+  "uuid": "a4d4d71d-09c3-496c-9857-99744075302a-tr-0-1003",
+  "historyId": "Final_Project_Automation.Test.AllPagesTest.TC03_page3",
+  "fullName": "Final_Project_Automation.Test.AllPagesTest.TC03_page3",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IL-EREZ-L-XL"
+    },
+    {
+      "name": "package",
+      "value": "Final_Project_Automation.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC03_page3"
+    },
+    {
+      "name": "testClass",
+      "value": "AllPagesTest"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "feature",
+      "value": "Add tasks"
+    },
+    {
+      "name": "story",
+      "value": "Thired story releated to task"
+    },
+    {
+      "name": "epic",
+      "value": "Tasks"
+    }
+  ],
+  "links": [],
+  "name": "TC03_page3",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC03_page3"
+  },
+  "stage": "finished",
+  "description": "Add simple task\n",
+  "steps": [
+    {
+      "name": "TC03_page3",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d6ab770f77e741398fb7aceac81031a2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1657029769627,
+      "stop": 1657029775922
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1657029769627,
+  "stop": 1657029775922
+}
