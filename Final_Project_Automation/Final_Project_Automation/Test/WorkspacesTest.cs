@@ -16,7 +16,7 @@ namespace Final_Project_Automation.Test
         {
             // Login
             LoginPage lp = new LoginPage(driver);
-            lp.PersonEmail("erez-l@novami.com", "Ella@151515");
+            lp.PersonEmail("erez84levy@gmail.com", "Janjoni#151515");
 
             // Create new workspace
             WorkspacesPage wp = new WorkspacesPage(driver);
@@ -32,7 +32,7 @@ namespace Final_Project_Automation.Test
         {
             // Login
             LoginPage lp = new LoginPage(driver);
-            lp.PersonEmail("erez-l@novami.com", "Ella@151515");
+            lp.PersonEmail("erez84levy@gmail.com", "Janjoni#151515");
 
             // Rename the workspace name
             WorkspacesPage wp = new WorkspacesPage(driver);
