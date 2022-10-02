@@ -16,7 +16,7 @@ namespace Final_Project_Automation.Test
         {
             // Login
             LoginPage lp = new LoginPage(driver);
-            lp.PersonEmail("erez-l@novami.com", "Ella@151515");
+            lp.PersonEmail("erez84levy@gmail.com", "Janjoni#151515");
 
             // Create new last name
             AccountPage ap = new AccountPage(driver);
@@ -35,7 +35,7 @@ namespace Final_Project_Automation.Test
         {
             // Login
             LoginPage lp = new LoginPage(driver);
-            lp.PersonEmail("erez-l@novami.com", "Ella@151515");
+            lp.PersonEmail("erez84levy@gmail.com", "Janjoni#151515");
 
             // Verify that the last name isn't correct
             AccountPage ap = new AccountPage(driver);
