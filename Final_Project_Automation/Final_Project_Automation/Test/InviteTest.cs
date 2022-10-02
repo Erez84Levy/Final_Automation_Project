@@ -16,11 +16,11 @@ namespace Final_Project_Automation.Test
         {
             // Login
             LoginPage lp = new LoginPage(driver);
-            lp.PersonEmail("erez-l@novami.com", "Ella@151515");
+            lp.PersonEmail("erez84levy@gmail.com", "Janjoni#151515");
 
             // Invaite new pepole
             InvitePage ip = new InvitePage(driver);
-            ip.InviteNewPepole("erez84levy@gmail.com");
+            ip.InviteNewPepole("erez844levy@gmail.com");
             Thread.Sleep(2000);
 
             // Verify that we can't invite pepole
