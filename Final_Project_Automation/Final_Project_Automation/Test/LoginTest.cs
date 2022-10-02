@@ -16,7 +16,7 @@ namespace Final_Project_Automation.Test
         {
             // Login
             LoginPage lp = new LoginPage(driver);
-            lp.PersonEmail("erez-l@novami.com", "Ella@151515");
+            lp.PersonEmail("erez84levy@gmail.com", "Janjoni#151515");
 
             //Login Verification passed
             HomePage hp = new HomePage(driver);
@@ -31,7 +31,7 @@ namespace Final_Project_Automation.Test
         {
             // Login
             LoginPage lp = new LoginPage(driver);
-            lp.PersonEmail("erez-l@novami.com", "Ella@15151");
+            lp.PersonEmail("erez84levy@gmail.com", "Janjoni#15151");
 
             //Login Verification failed            
             HomePage hp = new HomePage(driver);
